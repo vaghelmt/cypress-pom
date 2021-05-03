@@ -1,0 +1,31 @@
+{
+  "name": "cypress-pom",
+  "version": "1.0.0",
+  "description": "cypress automation project for a CMS software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaghelmt/cypress-pom.git"
+  },
+  "keywords": [
+    "cypress",
+    "pom",
+    "automation"
+  ],
+  "author": "Mitul Vaghela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaghelmt/cypress-pom/issues"
+  },
+  "homepage": "https://github.com/vaghelmt/cypress-pom#readme",
+  "dependencies": {
+    "cypress": "^7.2.0",
+    "string-strip-html": "^8.2.13"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
