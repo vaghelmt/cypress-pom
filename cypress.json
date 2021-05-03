@@ -2,7 +2,9 @@
   "projectId": "n26aiu",
   "env": {
     "admin_url": "http://localhost:8080/jahia/page-composer/default/en/sites/digitall/home.html",
-    "site_url": "http://localhost:8080/sites/digitall/home"
+    "site_url": "http://localhost:8080/sites/digitall/home",
+    "username":"root",
+    "password":"root"
   },
   "chromeWebSecurity": false
 }

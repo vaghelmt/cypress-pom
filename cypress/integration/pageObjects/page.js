@@ -25,8 +25,8 @@ export class Page {
         url: 'http://localhost:8080/modules/graphql', 
         body: { query: this.query },  
         auth: {
-            username: 'root',
-            password: 'root'
+            username: Cypress.env('username'),
+            password: Cypress.env('password')
         },
         headers: {
             'Content-Type': 'application/json'

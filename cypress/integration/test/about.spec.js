@@ -23,7 +23,7 @@ describe("About page", () => {
             testData = data
         })
         loginPage.open()
-        loginPage.login('root', 'root')
+        loginPage.login(Cypress.env('username'), Cypress.env('password'))
         homePage.pageComposerExists()
 
     })
